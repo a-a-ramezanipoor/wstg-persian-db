@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Category;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -50,6 +51,12 @@ class MainSeeder extends Seeder
                 'title' => '12. API Testing'
             ],
         ];
+
+        Category::query()->insert($categoriesData);
+
+        $categories = Category::all();
+
+
 
 
     }
