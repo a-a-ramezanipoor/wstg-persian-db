@@ -56,8 +56,6 @@ class MainSeeder extends Seeder
 
         $categories = Category::all();
 
-        $itemsData = [];
-
         $infoCat = $categories->where('title',  '1. Information Gathering')->firstOrFail();
         $confCat = $categories->where('title',  '2. Configuration and Deploy Management Testing')->firstOrFail();
         $idenCat = $categories->where('title',  '3. Identity Management Testing')->firstOrFail();
@@ -70,6 +68,71 @@ class MainSeeder extends Seeder
         $bussCat = $categories->where('title',  '10. Business logic Testing')->firstOrFail();
         $clientCat = $categories->where('title',  '11. Client Side Testing')->firstOrFail();
         $apiCat = $categories->where('title',  '12. API Testing')->firstOrFail();
+
+
+
+        $itemsData = [
+            [
+                'category_id'=>$infoCat->id,
+                'title'=>"Conduct Search Engine Discovery Reconnaissance for Information Leakage",
+                'code'=>"WSTG-INFO-01",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$infoCat->id,
+                'title'=>"Fingerprint Web Server",
+                'code'=>"WSTG-INFO-02",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$infoCat->id,
+                'title'=>"Review Webserver Metafiles for Information Leakage",
+                'code'=>"WSTG-INFO-03",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$infoCat->id,
+                'title'=>"Enumerate Applications on Webserver",
+                'code'=>"WSTG-INFO-04",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$infoCat->id,
+                'title'=>"Review Webpage Content for Information Leakage",
+                'code'=>"WSTG-INFO-05",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$infoCat->id,
+                'title'=>"Identify Application Entry Points",
+                'code'=>"WSTG-INFO-06",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$infoCat->id,
+                'title'=>"Map Execution Paths Through Application",
+                'code'=>"WSTG-INFO-07",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$infoCat->id,
+                'title'=>"Fingerprint Web Application Framework",
+                'code'=>"WSTG-INFO-08",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$infoCat->id,
+                'title'=>"Fingerprint Web Application",
+                'code'=>"WSTG-INFO-09",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$infoCat->id,
+                'title'=>"Map Application Architecture",
+                'code'=>"WSTG-INFO-10",
+                'description'=>"test"
+            ],
+        ];
 
     }
 }
