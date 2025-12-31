@@ -612,6 +612,96 @@ class MainSeeder extends Seeder
                 'code'=>"WSTG-BUSL-10",
                 'description'=>"test"
             ],
+            [
+                'category_id'=>$clientCat->id,
+                'title'=>"Testing for DOM-Based Cross Site Scripting",
+                'code'=>"WSTG-CLNT-01",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$clientCat->id,
+                'title'=>"Testing for JavaScript Execution",
+                'code'=>"WSTG-CLNT-02",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$clientCat->id,
+                'title'=>"Testing for HTML Injection",
+                'code'=>"WSTG-CLNT-03",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$clientCat->id,
+                'title'=>"Testing for Client-side URL Redirect",
+                'code'=>"WSTG-CLNT-04",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$clientCat->id,
+                'title'=>"Testing for CSS Injection",
+                'code'=>"WSTG-CLNT-05",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$clientCat->id,
+                'title'=>"Testing for Client-side Resource Manipulation",
+                'code'=>"WSTG-CLNT-06",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$clientCat->id,
+                'title'=>"Testing Cross Origin Resource Sharing",
+                'code'=>"WSTG-CLNT-07",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$clientCat->id,
+                'title'=>"Testing for Cross Site Flashing",
+                'code'=>"WSTG-CLNT-08",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$clientCat->id,
+                'title'=>"Testing for Clickjacking",
+                'code'=>"WSTG-CLNT-09",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$clientCat->id,
+                'title'=>"Testing WebSockets",
+                'code'=>"WSTG-CLNT-10",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$clientCat->id,
+                'title'=>"Testing Web Messaging",
+                'code'=>"WSTG-CLNT-11",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$clientCat->id,
+                'title'=>"Testing Browser Storage",
+                'code'=>"WSTG-CLNT-12",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$clientCat->id,
+                'title'=>"Testing for Cross Site Script Inclusion",
+                'code'=>"WSTG-CLNT-13",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$clientCat->id,
+                'title'=>"Testing for Reverse Tabnabbing",
+                'code'=>"WSTG-CLNT-14",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$apiCat->id,
+                'title'=>"Testing GraphQL",
+                'code'=>"WSTG-APIT-01",
+                'description'=>"test"
+            ],
         ];
 
     }
