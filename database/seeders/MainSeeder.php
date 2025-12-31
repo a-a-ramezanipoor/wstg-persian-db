@@ -132,6 +132,84 @@ class MainSeeder extends Seeder
                 'code'=>"WSTG-INFO-10",
                 'description'=>"test"
             ],
+            [
+                'category_id'=>$confCat->id,
+                'title'=>"Test Network Infrastructure Configuration",
+                'code'=>"WSTG-CONF-01",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$confCat->id,
+                'title'=>"Test Application Platform Configuration",
+                'code'=>"WSTG-CONF-02",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$confCat->id,
+                'title'=>"Test File Extensions Handling for Sensitive Information",
+                'code'=>"WSTG-CONF-03",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$confCat->id,
+                'title'=>"Review Old Backup and Unreferenced Files for Sensitive Information",
+                'code'=>"WSTG-CONF-04",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$confCat->id,
+                'title'=>"Enumerate Infrastructure and Application Admin Interfaces",
+                'code'=>"WSTG-CONF-05",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$confCat->id,
+                'title'=>"Test HTTP Methods",
+                'code'=>"WSTG-CONF-06",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$confCat->id,
+                'title'=>"Test HTTP Strict Transport Security",
+                'code'=>"WSTG-CONF-07",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$confCat->id,
+                'title'=>"Test RIA Cross Domain Policy",
+                'code'=>"WSTG-CONF-08",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$confCat->id,
+                'title'=>"Test File Permission",
+                'code'=>"WSTG-CONF-09",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$confCat->id,
+                'title'=>"Test for Subdomain Takeover",
+                'code'=>"WSTG-CONF-10",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$confCat->id,
+                'title'=>"Test Cloud Storage",
+                'code'=>"WSTG-CONF-11",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$confCat->id,
+                'title'=>"Testing for Content Security Policy",
+                'code'=>"WSTG-CONF-12",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$confCat->id,
+                'title'=>"Test Path Confusion",
+                'code'=>"WSTG-CONF-13",
+                'description'=>"test"
+            ],
         ];
 
     }
