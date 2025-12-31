@@ -306,6 +306,96 @@ class MainSeeder extends Seeder
                 'code'=>"WSTG-ATHN-11",
                 'description'=>"test"
             ],
+            [
+                'category_id'=>$authorCat->id,
+                'title'=>"Testing Directory Traversal File Include",
+                'code'=>"WSTG-ATHZ-01",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$authorCat->id,
+                'title'=>"Testing for Bypassing Authorization Schema",
+                'code'=>"WSTG-ATHZ-02",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$authorCat->id,
+                'title'=>"Testing for Privilege Escalation",
+                'code'=>"WSTG-ATHZ-03",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$authorCat->id,
+                'title'=>"Testing for Insecure Direct Object References",
+                'code'=>"WSTG-ATHZ-04",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$authorCat->id,
+                'title'=>"Testing for OAuth Weaknesses",
+                'code'=>"WSTG-ATHZ-05",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$sessCat->id,
+                'title'=>"Testing for Session Management Schema",
+                'code'=>"WSTG-SESS-01",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$sessCat->id,
+                'title'=>"Testing for Cookies Attributes",
+                'code'=>"WSTG-SESS-02",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$sessCat->id,
+                'title'=>"Testing for Session Fixation",
+                'code'=>"WSTG-SESS-03",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$sessCat->id,
+                'title'=>"Testing for Exposed Session Variables",
+                'code'=>"WSTG-SESS-04",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$sessCat->id,
+                'title'=>"Testing for Cross Site Request Forgery",
+                'code'=>"WSTG-SESS-05",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$sessCat->id,
+                'title'=>"Testing for Logout Functionality",
+                'code'=>"WSTG-SESS-06",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$sessCat->id,
+                'title'=>"Testing Session Timeout",
+                'code'=>"WSTG-SESS-07",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$sessCat->id,
+                'title'=>"Testing for Session Puzzling",
+                'code'=>"WSTG-SESS-08",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$sessCat->id,
+                'title'=>"Testing for Session Hijacking",
+                'code'=>"WSTG-SESS-09",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$sessCat->id,
+                'title'=>"Testing JSON Web Tokens",
+                'code'=>"WSTG-SESS-10",
+                'description'=>"test"
+            ],
         ];
 
     }
