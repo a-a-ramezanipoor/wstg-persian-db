@@ -528,6 +528,30 @@ class MainSeeder extends Seeder
                 'code'=>"WSTG-ERRH-02",
                 'description'=>"test"
             ],
+            [
+                'category_id'=>$cryptCat->id,
+                'title'=>"Testing for Weak Transport Layer Security",
+                'code'=>"WSTG-CRYP-01",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$cryptCat->id,
+                'title'=>"Testing for Padding Oracle",
+                'code'=>"WSTG-CRYP-02",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$cryptCat->id,
+                'title'=>"Testing for Sensitive Information Sent via Unencrypted Channels",
+                'code'=>"WSTG-CRYP-03",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$cryptCat->id,
+                'title'=>"Testing for Weak Encryption",
+                'code'=>"WSTG-CRYP-04",
+                'description'=>"test"
+            ],
         ];
 
     }
