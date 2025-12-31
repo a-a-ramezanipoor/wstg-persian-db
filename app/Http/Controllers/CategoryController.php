@@ -7,12 +7,10 @@ use Illuminate\Http\Request;
 
 class CategoryController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
-    public function index()
+    public function items(Request $request, Category $category)
     {
-        //
+        $category = $category->load('items');
+        return view('pages.categories.items', compact('category'));
     }
 
     /**
@@ -55,11 +53,4 @@ class CategoryController extends Controller
         //
     }
 
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(Category $category)
-    {
-        //
-    }
 }
