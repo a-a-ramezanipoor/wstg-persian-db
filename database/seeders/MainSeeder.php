@@ -210,6 +210,36 @@ class MainSeeder extends Seeder
                 'code'=>"WSTG-CONF-13",
                 'description'=>"test"
             ],
+            [
+                'category_id'=>$idenCat->id,
+                'title'=>"Test Role Definitions",
+                'code'=>"WSTG-IDNT-01",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$idenCat->id,
+                'title'=>"Test User Registration Process",
+                'code'=>"WSTG-IDNT-02",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$idenCat->id,
+                'title'=>"Test Account Provisioning Process",
+                'code'=>"WSTG-IDNT-03",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$idenCat->id,
+                'title'=>"Testing for Account Enumeration and Guessable User Account",
+                'code'=>"WSTG-IDNT-04",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$idenCat->id,
+                'title'=>"Testing for Weak or Unenforced Username Policy",
+                'code'=>"WSTG-IDNT-05",
+                'description'=>"test"
+            ],
         ];
 
     }
