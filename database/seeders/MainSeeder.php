@@ -552,6 +552,66 @@ class MainSeeder extends Seeder
                 'code'=>"WSTG-CRYP-04",
                 'description'=>"test"
             ],
+            [
+                'category_id'=>$bussCat->id,
+                'title'=>"Test Business Logic Data Validation",
+                'code'=>"WSTG-BUSL-01",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$bussCat->id,
+                'title'=>"Test Ability to Forge Requests",
+                'code'=>"WSTG-BUSL-02",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$bussCat->id,
+                'title'=>"Test Integrity Checks",
+                'code'=>"WSTG-BUSL-03",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$bussCat->id,
+                'title'=>"Test for Process Timing",
+                'code'=>"WSTG-BUSL-04",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$bussCat->id,
+                'title'=>"Test Number of Times a Function Can Be Used Limits    ",
+                'code'=>"WSTG-BUSL-05",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$bussCat->id,
+                'title'=>"Testing for the Circumvention of Work Flows",
+                'code'=>"WSTG-BUSL-06",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$bussCat->id,
+                'title'=>"Test Defenses Against Application Misuse",
+                'code'=>"WSTG-BUSL-07",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$bussCat->id,
+                'title'=>"Test Upload of Unexpected File Types",
+                'code'=>"WSTG-BUSL-08",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$bussCat->id,
+                'title'=>"Test Upload of Malicious Files",
+                'code'=>"WSTG-BUSL-09",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$bussCat->id,
+                'title'=>"Test Payment Functionality",
+                'code'=>"WSTG-BUSL-10",
+                'description'=>"test"
+            ],
         ];
 
     }
