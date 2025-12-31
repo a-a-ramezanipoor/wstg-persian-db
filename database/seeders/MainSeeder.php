@@ -240,6 +240,72 @@ class MainSeeder extends Seeder
                 'code'=>"WSTG-IDNT-05",
                 'description'=>"test"
             ],
+            [
+                'category_id'=>$authenticCat->id,
+                'title'=>"Testing for Credentials Transported over an Encrypted Channel",
+                'code'=>"WSTG-ATHN-01",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$authenticCat->id,
+                'title'=>"Testing for Default Credentials",
+                'code'=>"WSTG-ATHN-02",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$authenticCat->id,
+                'title'=>"Testing for Weak Lock Out Mechanism",
+                'code'=>"WSTG-ATHN-03",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$authenticCat->id,
+                'title'=>"Testing for Bypassing Authentication Schema",
+                'code'=>"WSTG-ATHN-04",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$authenticCat->id,
+                'title'=>"Testing for Vulnerable Remember Password",
+                'code'=>"WSTG-ATHN-05",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$authenticCat->id,
+                'title'=>"Testing for Browser Cache Weaknesses",
+                'code'=>"WSTG-ATHN-06",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$authenticCat->id,
+                'title'=>"Testing for Weak Password Policy",
+                'code'=>"WSTG-ATHN-07",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$authenticCat->id,
+                'title'=>"Testing for Weak Security Question Answer",
+                'code'=>"WSTG-ATHN-08",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$authenticCat->id,
+                'title'=>"Testing for Weak Password Change or Reset Functionalities",
+                'code'=>"WSTG-ATHN-09",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$authenticCat->id,
+                'title'=>"Testing for Weaker Authentication in Alternative Channel",
+                'code'=>"WSTG-ATHN-10",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$authenticCat->id,
+                'title'=>"Testing Multi-Factor Authentication (MFA)",
+                'code'=>"WSTG-ATHN-11",
+                'description'=>"test"
+            ],
         ];
 
     }
