@@ -516,6 +516,18 @@ class MainSeeder extends Seeder
                 'code'=>"WSTG-INPV-20",
                 'description'=>"test"
             ],
+            [
+                'category_id'=>$errCat->id,
+                'title'=>"Testing for Improper Error Handling",
+                'code'=>"WSTG-ERRH-01",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$errCat->id,
+                'title'=>"Testing for Stack Traces",
+                'code'=>"WSTG-ERRH-02",
+                'description'=>"test"
+            ],
         ];
 
     }
