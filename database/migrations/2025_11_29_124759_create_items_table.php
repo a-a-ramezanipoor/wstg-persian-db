@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId("category_id");
             $table->string("title")->unique();
+            $table->string("code")->unique();
             $table->text("description");
             $table->timestamps();
         });
