@@ -396,6 +396,126 @@ class MainSeeder extends Seeder
                 'code'=>"WSTG-SESS-10",
                 'description'=>"test"
             ],
+            [
+                'category_id'=>$dataCat->id,
+                'title'=>"Testing for Reflected Cross Site Scripting",
+                'code'=>"WSTG-INPV-01",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$dataCat->id,
+                'title'=>"Testing for Stored Cross Site Scripting",
+                'code'=>"WSTG-INPV-02",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$dataCat->id,
+                'title'=>"Testing for HTTP Verb Tampering",
+                'code'=>"WSTG-INPV-03",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$dataCat->id,
+                'title'=>"Testing for HTTP Parameter Pollution",
+                'code'=>"WSTG-INPV-04",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$dataCat->id,
+                'title'=>"Testing for SQL Injection",
+                'code'=>"WSTG-INPV-05",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$dataCat->id,
+                'title'=>"Testing for LDAP Injection",
+                'code'=>"WSTG-INPV-06",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$dataCat->id,
+                'title'=>"Testing for XML Injection",
+                'code'=>"WSTG-INPV-07",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$dataCat->id,
+                'title'=>"Testing for SSI Injection",
+                'code'=>"WSTG-INPV-08",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$dataCat->id,
+                'title'=>"Testing for XPath Injection",
+                'code'=>"WSTG-INPV-09",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$dataCat->id,
+                'title'=>"Testing for IMAP SMTP Injection",
+                'code'=>"WSTG-INPV-10",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$dataCat->id,
+                'title'=>"Testing for Code Injection",
+                'code'=>"WSTG-INPV-11",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$dataCat->id,
+                'title'=>"Testing for Command Injection",
+                'code'=>"WSTG-INPV-12",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$dataCat->id,
+                'title'=>"Testing for Format String Injection",
+                'code'=>"WSTG-INPV-13",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$dataCat->id,
+                'title'=>"Testing for Incubated Vulnerability",
+                'code'=>"WSTG-INPV-14",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$dataCat->id,
+                'title'=>"Testing for HTTP Splitting Smuggling",
+                'code'=>"WSTG-INPV-15",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$dataCat->id,
+                'title'=>"Testing for HTTP Incoming Requests",
+                'code'=>"WSTG-INPV-16",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$dataCat->id,
+                'title'=>"Testing for Host Header Injection",
+                'code'=>"WSTG-INPV-17",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$dataCat->id,
+                'title'=>"Testing for Server-side Template Injection",
+                'code'=>"WSTG-INPV-18",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$dataCat->id,
+                'title'=>"Testing for Server-Side Request Forgery",
+                'code'=>"WSTG-INPV-19",
+                'description'=>"test"
+            ],
+            [
+                'category_id'=>$dataCat->id,
+                'title'=>"Testing for Mass Assignment",
+                'code'=>"WSTG-INPV-20",
+                'description'=>"test"
+            ],
         ];
 
     }
